@@ -1,13 +1,17 @@
 # Project- 1 - DB (CSCI 6370)
 
 # Team Number/ Name:
-Team 9
+Team No
 
 # Team Members:
 V H Sowndarya Nookala (Manager)
+
 Bavesh Chowdary Kamma 
-Subha sree Nadimpalli
+
+Subhasree Nadimpalli
+
 Krishna Chaitanya Velagapudi
+
 Rohith Lingala
 
 # Instructions to follow for executing the code:
