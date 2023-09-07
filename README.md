@@ -21,16 +21,16 @@ The 'minus' method within the Table class accepts a second table 'table2' as inp
 5. Join Operator:
 In relational databases, a join operator merges rows from multiple tables by matching them using a shared column or related data, resulting in a table that consolidates information from diverse tables. 
 
-In this project 1, we will implement three types of joins.
-
- (i) Equi-join:
- In this project, one of the 'join' functions executes an equijoin operation between two tables using defined attributes. It scans through both tables' rows, checks if the specified attribute values match, and combines rows with matching attributes into a new result table. This outcome merges columns from both input tables when attribute values align.
-
- (ii) Theta-join:
- In this project, one of the 'join' functions executes a theta join operation between two tables using a specified condition. It parses the condition to extract the operator and column positions and then proceeds to compare rows between the two tables based on this condition. When rows match the condition, they are combined into a new result table, resulting in a merged table that combines columns from both input tables as defined by the condition.
-
- (iii) Natural join:
- In this project, one of the 'join' functions executes a natural join operation between two tables which identifies shared attributes between the tables, checks their values for matches, and combines rows with matching attributes into a result table. Depending on whether common attributes exist, it either generates a new table without duplicate attributes or combines the attribute lists, thus effectively merging the two tables through a natural join.
+  In this project 1, we will implement three types of joins.
+  
+   (i) Equi-join:
+   In this project, one of the 'join' functions executes an equijoin operation between two tables using defined attributes. It scans through both tables' rows, checks if the specified attribute values match, and combines rows with matching attributes into a new result table. This outcome merges columns from both input tables when attribute values align.
+  
+   (ii) Theta-join:
+   In this project, one of the 'join' functions executes a theta join operation between two tables using a specified condition. It parses the condition to extract the operator and column positions and then proceeds to compare rows between the two tables based on this condition. When rows match the condition, they are combined into a new result table, resulting in a merged table that combines columns from both input tables as defined by the condition.
+  
+   (iii) Natural join:
+   In this project, one of the 'join' functions executes a natural join operation between two tables which identifies shared attributes between the tables, checks their values for matches, and combines rows with matching attributes into a result table. Depending on whether common attributes exist, it either generates a new table without duplicate attributes or combines the attribute lists, thus effectively merging the two tables through a natural join.
 
 
 # Instructions for code execution:
@@ -48,10 +48,14 @@ In this project 1, we will implement three types of joins.
 
 # Team Members:
 V H Sowndarya Nookala (Manager)
+
 Rohith Lingala
+
 Krishna Chaitanya Velagapudi
+
 Bavesh Chowdary Kamma 
+
 Subhasree Nadimpalli
 
 # Conclusion:
-We completed the project within the deadline by following the effective task segregation, testing, and evaluation of the operators by ensuring that they perform their intended functions accurately. 
+We completed the project on time by effectively segregating tasks, testing, and evaluating the operators to ensure accurate performance. 
