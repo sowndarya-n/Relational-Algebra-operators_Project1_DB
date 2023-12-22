@@ -115,6 +115,12 @@ class MovieDB
         var t_select2 = movie.select (t -> (Integer) t[movie.col("year")] < 1980);
         t_select2.print ();
 
+
+        // ----- Select with year = 1977
+        out.println ();
+        var t_select3 = movie.select ("year == 1977");
+        t_select3.print ();
+
         //--------------------- indexed select: key
 
         // out.println ();
@@ -139,17 +145,16 @@ class MovieDB
         var t_join = movie.join ("studioName", "name", studio);
         t_join.print ();
 
-        //--------------------- theta-join: movie JOIN studio ON studioName = name
-
-        out.println ();
-        var th_join = movie.join ("studioName", "name", studio);
-        th_join.print ();
-
         //--------------------- natural join: movie JOIN studio
 
         out.println ();
         var t_join2 = movie.join (cinema);
         t_join2.print ();
+
+        //--------------------- Theta join: movie JOIN studio
+        out.println ();
+        var theta_join = movie.join ("studioName == name", studio);
+        theta_join.print ();
 
     } // main
 
